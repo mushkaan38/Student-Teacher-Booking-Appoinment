@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student-Teacher Appointment Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book an Appointment</h1>
+
+        <form id="appointmentForm">
+            <input type="text" id="studentName" placeholder="Student Name" required>
+            <input type="text" id="teacherName" placeholder="Teacher Name" required>
+            <input type="date" id="appointmentDate" required>
+            <input type="time" id="appointmentTime" required>
+            <button type="submit">Book Appointment</button>
+        </form>
+
+        <h2>Booked Appointments</h2>
+        <ul id="appointmentList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
